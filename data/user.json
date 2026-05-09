@@ -1,0 +1,62 @@
+[
+  {
+    "_id": "XtFoM",
+    "username": "adar1",
+    "fullname": "adar sarus1",
+    "password": "adar1",
+    "isAdmin": false,
+    "balance": 100,
+    "createdAt": 1778358360209,
+    "updatedAt": 1778358360209
+  },
+  {
+    "_id": "6iykr",
+    "username": "adar2",
+    "fullname": "adar sarusi2",
+    "password": "adar2",
+    "isAdmin": false,
+    "balance": 100,
+    "createdAt": 1778358360209,
+    "updatedAt": 1778358360209
+  },
+  {
+    "_id": "tUZPy",
+    "username": "adar3",
+    "fullname": "adar sarusi3",
+    "password": "adar3",
+    "isAdmin": false,
+    "balance": 100,
+    "createdAt": 1778358360209,
+    "updatedAt": 1778358360209
+  },
+  {
+    "_id": "wfawE",
+    "username": "admin",
+    "fullname": "adar sarusi",
+    "password": "admin",
+    "isAdmin": true,
+    "balance": 100,
+    "createdAt": 1778358360209,
+    "updatedAt": 1778358360209
+  },
+  {
+    "username": "badran",
+    "password": "badran",
+    "fullname": "badran levi",
+    "isAdmin": false,
+    "_id": "LnIPn",
+    "balance": 100,
+    "createdAt": 1778358360209,
+    "updatedAt": 1778358360209
+  },
+  {
+    "_id": "zZM92",
+    "username": "adar33",
+    "password": "adar33",
+    "fullname": "badran levi5",
+    "isAdmin": false,
+    "balance": 100,
+    "createdAt": 1778358360209,
+    "updatedAt": 1778358360209
+  }
+]
