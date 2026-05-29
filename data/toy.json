@@ -1,47 +1,51 @@
 [
   {
     "name": "Woody",
-    "imgUrl": "public/Buzz-Lightyear-PNG-File.webp",
     "price": 123,
+    "imgUrl": "public/Buzz-Lightyear-PNG-File.webp",
     "labels": [],
-    "inStock": true,
-    "_id": "64hvn",
+    "createdAt": 1778358616233,
     "updatedAt": 1778358616233,
-    "createdAt": 1778358616233
+    "inStock": true,
+    "msgs": []
   },
   {
     "name": "Absolutely not Buzz",
-    "imgUrl": "public/Buzz-Lightyear-PNG-File.webp",
     "price": 123,
-    "labels": ["Art"],
-    "inStock": true,
-    "_id": "IJV7E",
+    "imgUrl": "public/Buzz-Lightyear-PNG-File.webp",
+    "labels": [
+      "Art"
+    ],
+    "createdAt": 1778358567676,
     "updatedAt": 1778358594468,
-    "createdAt": 1778358567676
+    "inStock": true,
+    "msgs": []
   },
   {
     "name": "Definitely not Buzz",
     "price": 28,
+    "imgUrl": "/Buzz-Lightyear-PNG-File.webp",
     "labels": [
       "On wheels",
       "Box game"
     ],
-    "inStock": false,
-    "createdAt": "2023-09-21T11:11:22.122Z",
-    "imgUrl": "/Buzz-Lightyear-PNG-File.webp",
-    "_id": "RfsGY"
+    "createdAt": 1778358567676,
+    "updatedAt": 1778940912029,
+    "inStock": true,
+    "msgs": []
   },
   {
     "name": "Buzz Buzz Buzz",
     "price": 23,
+    "imgUrl": "/Buzz-Lightyear-PNG-File.webp",
     "labels": [
       "Art",
       "Doll",
       "Puzzle"
     ],
-    "inStock": true,
-    "createdAt": "2023-09-21T11:11:22.122Z",
-    "imgUrl": "/Buzz-Lightyear-PNG-File.webp",
-    "_id": "R5xT6"
+    "createdAt": 1778358616233,
+    "updatedAt": 1778941077149,
+    "inStock": false,
+    "msgs": []
   }
 ]

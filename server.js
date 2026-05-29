@@ -1,136 +1,61 @@
-import express from 'express'
-import cors from 'cors'
+import express  from 'express'
 import cookieParser from 'cookie-parser'
-import { toyService } from './services/toy.service.js'
-import { userService } from './services/user.service.js'
+import cors  from 'cors'
+import path, { dirname } from 'path'
+import { fileURLToPath } from 'url'
+
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = dirname(__filename)
+
+import { logger } from './services/logger.service.js'
+logger.info('server.js loaded...')
 
 const app = express()
 
-// App config
-app.use(express.json())
+// Express App Config
 app.use(cookieParser())
+app.use(express.json())
+app.use(express.static('public'))
 
 if (process.env.NODE_ENV === 'production') {
-	app.use(express.static('public'))
+    // Express serve static files on production environment
+    app.use(express.static(path.resolve(__dirname, 'public')))
+    console.log('__dirname: ', __dirname)
 } else {
-	app.use(cors({
-		origin: [
-			'http://localhost:5173',
-			'http://127.0.0.1:5173',
-			'http://localhost:5174',
-			'http://127.0.0.1:5174',
-		],
-		credentials: true,
-	}))
+    // Configuring CORS
+    // Make sure origin contains the url 
+    // your frontend dev-server is running on
+    const corsOptions = {
+        origin: [
+            'http://127.0.0.1:5173', 
+            'http://localhost:5173',
+            'http://127.0.0.1:3000', 
+            'http://localhost:3000',
+        ],
+        credentials: true
+    }
+    app.use(cors(corsOptions))
 }
 
-app.get('/api/toy', (req, res) => {
-	const { name, inStock, labels, sortBy, sortDir } = req.query
+import { authRoutes } from './api/auth/auth.routes.js'
+import { userRoutes } from './api/user/user.routes.js'
+import { toyRoutes } from './api/toy/toy.routes.js'
 
-	const filterBy = {
-		name,
-		inStock,
-		labels: labels ? labels.split(',') : []
-	}
+// routes
+app.use('/api/auth', authRoutes)
+app.use('/api/user', userRoutes)
+app.use('/api/toy', toyRoutes)
 
-	const sort = {
-		sortBy,
-		sortDir: +sortDir || 1
-	}
-
-	toyService.query(filterBy, sort)
-		.then(toys => res.send(toys))
-		.catch(err => {
-			console.log('Had issues getting toys', err)
-			res.status(400).send({ msg: 'Had issues getting toys' })
-		})
-})
-
-app.get('/api/toy/:id', (req, res) => {
-	const toyId = req.params.id
-
-	toyService.getById(toyId)
-		.then(toy => res.send(toy))
-		.catch(err => {
-			console.log('Had issues getting toy', err)
-			res.status(400).send({ msg: 'Had issues getting toy' })
-		})
-})
-
-app.delete('/api/toy/:id', (req, res) => {
-	const toyId = req.params.id
-
-	toyService.remove(toyId)
-		.then(() => res.send({ msg: 'Deleted successfully' }))
-		.catch(err => {
-			console.log('Had issues deleting toy', err)
-			res.status(400).send({ msg: 'Had issues deleting toy' })
-		})
-})
-
-app.post('/api/toy', (req, res) => {
-	const toy = req.body
-
-	if (!toy.name) {
-		return res.status(400).send({ msg: 'Toy must have a name' })
-	}
-
-	toyService.save(toy)
-		.then(savedToy => res.send(savedToy))
-		.catch(err => {
-			console.log('Had issues adding toy', err)
-			res.status(400).send({ msg: 'Had issues adding toy' })
-		})
-})
-
-app.put('/api/toy/:id', (req, res) => {
-	const toy = { ...req.body, _id: req.params.id }
-
-	toyService.save(toy)
-		.then(savedToy => res.send(savedToy))
-		.catch(err => {
-			console.log('Had issues updating toy', err)
-			res.status(400).send({ msg: 'Had issues updating toy' })
-		})
-})
-
-app.get('/api/user', (req, res) => {
-    userService.query()
-        .then(users => res.send(users))
-        .catch(err => res.status(400).send('Cannot load users'))
-})
-
-app.get('/api/user/:userId', (req, res) => {
-    userService.getById(req.params.userId)
-        .then(user => res.send(user))
-        .catch(err => res.status(400).send('Cannot load user'))
-})
-
-app.post('/api/auth/login', (req, res) => {
-    const { username, password } = req.body
-
-    userService.login({ username, password })
-        .then(user => res.send(user))
-        .catch(() => res.status(401).send('Invalid login'))
-})
-
-app.post('/api/auth/signup', (req, res) => {
-    const { username, password, fullname } = req.body
-
-    userService.signup({ username, password, fullname })
-        .then(user => res.send(user))
-        .catch(err => res.status(400).send(err))
-})
-
-app.post('/api/auth/logout', (req, res) => {
-    res.send({ msg: 'Logged out' })
-})
+// Make every unmatched server-side-route fall back to index.html
+// So when requesting http://localhost:3030/index.html/car/123 it will still respond with
+// our SPA (single page app) (the index.html file) and allow vue-router to take it from there
 
 app.get('{*splat}', (req, res) => {
     res.sendFile(path.resolve('public/index.html'))
 })
 
-const port = 3030
+const port = process.env.PORT || 3030
+
 app.listen(port, () => {
-	console.log(`Server is running on http://localhost:${port}`)
+    logger.info('Server is running on port: ' + port)
 })
