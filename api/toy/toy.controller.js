@@ -69,7 +69,7 @@ export async function removeToy(req, res) {
     try {
         const toyId = req.params.id
         const deletedCount = await toyService.remove(toyId)
-        res.send(`${deletedCount} toys removed`)
+        res.send({ deletedCount })
     } catch (err) {
         logger.error('Failed to remove toy', err)
         res.status(500).send({ err: 'Failed to remove toy' })

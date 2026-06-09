@@ -36,3 +36,297 @@
 29.5.2026, 23:14:10 - INFO - Req was made | /api/toy?name=&inStock=all&labels=Art&sortBy=price&sortDir=1 
 29.5.2026, 23:14:11 - INFO - Req was made | /api/toy?name=&inStock=all&labels=Box+game&sortBy=price&sortDir=1 
 29.5.2026, 23:14:12 - INFO - Req was made | /api/toy?name=&inStock=all&labels=Box+game,Art&sortBy=price&sortDir=1 
+9.6.2026, 13:47:08 - INFO - server.js loaded... 
+9.6.2026, 13:47:08 - INFO - Server is running on port: 3030 
+9.6.2026, 13:47:19 - INFO - server.js loaded... 
+9.6.2026, 13:47:19 - INFO - Server is running on port: 3030 
+9.6.2026, 13:47:53 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 
+9.6.2026, 13:47:53 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 
+9.6.2026, 13:49:00 - DEBUG - auth.service - login with username: admin 
+9.6.2026, 13:49:00 - ERROR - Failed to Login Error: Invalid username or password 
+9.6.2026, 13:49:06 - DEBUG - auth.service - login with username: adar2 
+9.6.2026, 13:49:06 - ERROR - Failed to Login Error: Invalid username or password 
+9.6.2026, 13:49:10 - DEBUG - auth.service - login with username: cc 
+9.6.2026, 13:49:10 - INFO - User login:  | {"_id":"6a19f1e8bc0483e0e67108a0","username":"cc","fullname":"cc","score":0} 
+9.6.2026, 13:49:10 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 
+9.6.2026, 13:49:10 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 
+9.6.2026, 13:49:17 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 
+9.6.2026, 13:49:17 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 
+9.6.2026, 13:49:24 - INFO - Req was made | /api/toy/6a27efad27c322cd053ceaf0 
+9.6.2026, 13:49:26 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 
+9.6.2026, 13:49:27 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 
+9.6.2026, 13:49:28 - INFO - Req was made | /api/toy/6a27efad27c322cd053ceaf0 
+9.6.2026, 13:49:31 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 
+9.6.2026, 13:49:31 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 
+9.6.2026, 13:49:56 - INFO - Req was made | /api/toy/6a27efad27c322cd053ceaf0 
+9.6.2026, 13:49:59 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 
+9.6.2026, 13:49:59 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 
+9.6.2026, 13:50:29 - INFO - Req was made | /api/toy/6a27efad27c322cd053ceaf0 
+9.6.2026, 13:50:31 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 
+9.6.2026, 13:50:32 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 
+9.6.2026, 13:54:34 - INFO - server.js loaded... 
+9.6.2026, 13:54:34 - INFO - Server is running on port: 3030 
+9.6.2026, 13:54:58 - INFO - server.js loaded... 
+9.6.2026, 13:54:58 - INFO - Server is running on port: 3030 
+9.6.2026, 13:55:37 - DEBUG - auth.service - signup with username: adar1, fullname: adar sarusi 
+9.6.2026, 13:55:37 - ERROR - cannot insert user | Error: Username taken 
+9.6.2026, 13:55:37 - ERROR - Failed to signup Error: Username taken 
+9.6.2026, 13:55:45 - DEBUG - auth.service - signup with username: adar1, fullname: adar sarusi 
+9.6.2026, 13:55:45 - ERROR - cannot insert user | Error: Username taken 
+9.6.2026, 13:55:45 - ERROR - Failed to signup Error: Username taken 
+9.6.2026, 13:55:57 - DEBUG - auth.service - signup with username: adar1, fullname: adar sarusi 
+9.6.2026, 13:55:57 - DEBUG - auth.route - new account created: {"username":"adar1","password":"$2b$10$18WlD2wyaVeh7zAHk1a10ucVTUzhzDhD4t69H2zvjavqvYEHoAkcS","fullname":"adar sarusi","isAdmin":false,"balance":100,"createdAt":1781002557412,"updatedAt":1781002557412,"_id":"6a27f13db6d1b3fbdc8dce8c"} 
+9.6.2026, 13:55:57 - DEBUG - auth.service - login with username: adar1 
+9.6.2026, 13:55:57 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 
+9.6.2026, 13:55:58 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 
+9.6.2026, 13:56:34 - DEBUG - auth.service - signup with username: badran, fullname: badran levi 
+9.6.2026, 13:56:34 - DEBUG - auth.route - new account created: {"username":"badran","password":"$2b$10$vij.bgfERfIfhaY8hZh9cu2jwvSyxXeYGIG1crNB03FWMlyXChS8W","fullname":"badran levi","isAdmin":false,"balance":100,"createdAt":1781002594837,"updatedAt":1781002594837,"_id":"6a27f162b6d1b3fbdc8dce8d"} 
+9.6.2026, 13:56:34 - DEBUG - auth.service - login with username: badran 
+9.6.2026, 13:56:34 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 
+9.6.2026, 13:56:35 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 
+9.6.2026, 13:57:12 - DEBUG - auth.service - signup with username: admin, fullname: admin 
+9.6.2026, 13:57:12 - DEBUG - auth.route - new account created: {"username":"admin","password":"$2b$10$UJOwqPOLwP4OD4gCY03FBudQ8xJKmV21XZ7hrf2KxxKpQOfnxcCsa","fullname":"admin","isAdmin":false,"balance":100,"createdAt":1781002632636,"updatedAt":1781002632636,"_id":"6a27f188b6d1b3fbdc8dce8e"} 
+9.6.2026, 13:57:12 - DEBUG - auth.service - login with username: admin 
+9.6.2026, 13:57:12 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 
+9.6.2026, 13:57:13 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 
+9.6.2026, 14:06:57 - DEBUG - auth.service - login with username: badran 
+9.6.2026, 14:06:57 - INFO - User login:  | {"_id":"6a27f162b6d1b3fbdc8dce8d","username":"badran","fullname":"badran levi","isAdmin":false,"balance":100,"createdAt":1781002594837,"updatedAt":1781002594837} 
+9.6.2026, 14:06:57 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 
+9.6.2026, 14:06:57 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 
+9.6.2026, 14:07:03 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 
+9.6.2026, 14:07:04 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 
+9.6.2026, 14:09:02 - INFO - server.js loaded... 
+9.6.2026, 14:09:02 - INFO - Server is running on port: 3030 
+9.6.2026, 14:17:01 - INFO - server.js loaded... 
+9.6.2026, 14:17:01 - INFO - Server is running on port: 3030 
+9.6.2026, 14:17:14 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 
+9.6.2026, 14:17:14 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 
+9.6.2026, 14:17:19 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 
+9.6.2026, 14:17:19 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 
+9.6.2026, 14:17:24 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 
+9.6.2026, 14:17:25 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 
+9.6.2026, 14:17:36 - DEBUG - auth.service - login with username: adar1 
+9.6.2026, 14:17:36 - INFO - User login:  | {"_id":"6a27f13db6d1b3fbdc8dce8c","username":"adar1","fullname":"adar sarusi","isAdmin":false,"balance":100,"createdAt":1781002557412,"updatedAt":1781002557412} 
+9.6.2026, 14:17:36 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 
+9.6.2026, 14:17:37 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 
+9.6.2026, 14:17:39 - ERROR - Failed to remove toy | ReferenceError: asyncLocalStorage is not defined 
+9.6.2026, 14:18:08 - INFO - server.js loaded... 
+9.6.2026, 14:18:08 - INFO - Server is running on port: 3030 
+9.6.2026, 14:18:11 - ERROR - Failed to remove toy | TypeError: Cannot destructure property 'loggedinUser' of 'asyncLocalStorage.getStore(...)' as it is undefined. 
+9.6.2026, 14:22:58 - INFO - server.js loaded... 
+9.6.2026, 14:22:58 - INFO - Server is running on port: 3030 
+9.6.2026, 14:23:33 - INFO - server.js loaded...
+9.6.2026, 14:23:33 - INFO - Server is running on port: 3030
+9.6.2026, 14:23:41 - ERROR - cannot remove toy 6a27f63a722e6cf1f6ddf4db | ReferenceError: carId is not defined | 6a27f13db6d1b3fbdc8dce8c
+9.6.2026, 14:23:41 - ERROR - Failed to remove toy | ReferenceError: carId is not defined | 6a27f13db6d1b3fbdc8dce8c
+9.6.2026, 14:24:08 - INFO - server.js loaded...
+9.6.2026, 14:24:08 - INFO - Server is running on port: 3030
+9.6.2026, 14:27:43 - INFO - server.js loaded...
+9.6.2026, 14:27:43 - INFO - Server is running on port: 3030
+9.6.2026, 14:27:50 - DEBUG - auth.service - login with username: cc
+9.6.2026, 14:27:50 - INFO - User login:  | {"_id":"6a19f1e8bc0483e0e67108a0","username":"cc","fullname":"cc","isAdmin:":true,"balance":100}
+9.6.2026, 14:27:50 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a19f1e8bc0483e0e67108a0
+9.6.2026, 14:27:51 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a19f1e8bc0483e0e67108a0
+9.6.2026, 14:27:55 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1
+9.6.2026, 14:27:56 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1
+9.6.2026, 14:28:08 - ERROR - Failed to remove toy | TypeError: Cannot destructure property '_id' of 'loggedinUser' as it is undefined.
+9.6.2026, 14:29:05 - DEBUG - auth.service - login with username: cc
+9.6.2026, 14:29:06 - INFO - User login:  | {"_id":"6a19f1e8bc0483e0e67108a0","username":"cc","fullname":"cc","isAdmin:":true,"balance":100}
+9.6.2026, 14:29:06 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a19f1e8bc0483e0e67108a0
+9.6.2026, 14:29:06 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a19f1e8bc0483e0e67108a0
+9.6.2026, 14:29:26 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a19f1e8bc0483e0e67108a0
+9.6.2026, 14:29:26 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a19f1e8bc0483e0e67108a0
+9.6.2026, 14:30:55 - INFO - server.js loaded...
+9.6.2026, 14:30:55 - INFO - Server is running on port: 3030
+9.6.2026, 14:31:01 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a19f1e8bc0483e0e67108a0
+9.6.2026, 14:31:02 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a19f1e8bc0483e0e67108a0
+9.6.2026, 14:38:37 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a19f1e8bc0483e0e67108a0
+9.6.2026, 14:38:55 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a19f1e8bc0483e0e67108a0
+9.6.2026, 14:38:55 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a19f1e8bc0483e0e67108a0
+9.6.2026, 14:40:36 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a19f1e8bc0483e0e67108a0
+9.6.2026, 14:40:36 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a19f1e8bc0483e0e67108a0
+9.6.2026, 14:40:45 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a19f1e8bc0483e0e67108a0
+9.6.2026, 14:40:45 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a19f1e8bc0483e0e67108a0
+9.6.2026, 14:41:02 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a19f1e8bc0483e0e67108a0
+9.6.2026, 14:41:03 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a19f1e8bc0483e0e67108a0
+9.6.2026, 14:41:06 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a19f1e8bc0483e0e67108a0
+9.6.2026, 14:41:07 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a19f1e8bc0483e0e67108a0
+9.6.2026, 14:41:17 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a19f1e8bc0483e0e67108a0
+9.6.2026, 14:41:18 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a19f1e8bc0483e0e67108a0
+9.6.2026, 14:42:04 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a19f1e8bc0483e0e67108a0
+9.6.2026, 14:42:04 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a19f1e8bc0483e0e67108a0
+9.6.2026, 14:42:20 - DEBUG - auth.service - login with username: badran
+9.6.2026, 14:42:20 - INFO - User login:  | {"_id":"6a27f162b6d1b3fbdc8dce8d","username":"badran","fullname":"badran levi","isAdmin":false,"balance":100,"createdAt":1781002594837,"updatedAt":1781002594837}
+9.6.2026, 14:42:20 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a27f162b6d1b3fbdc8dce8d
+9.6.2026, 14:42:20 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a27f162b6d1b3fbdc8dce8d
+9.6.2026, 14:45:47 - INFO - server.js loaded...
+9.6.2026, 14:45:47 - INFO - Server is running on port: 3030
+9.6.2026, 14:45:52 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a27f162b6d1b3fbdc8dce8d
+9.6.2026, 14:45:53 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a27f162b6d1b3fbdc8dce8d
+9.6.2026, 14:46:07 - DEBUG - auth.service - login with username: cc
+9.6.2026, 14:46:07 - INFO - User login:  | {"_id":"6a19f1e8bc0483e0e67108a0","username":"cc","fullname":"cc","isAdmin:":true,"balance":100}
+9.6.2026, 14:46:07 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a19f1e8bc0483e0e67108a0
+9.6.2026, 14:46:08 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a19f1e8bc0483e0e67108a0
+9.6.2026, 14:50:06 - INFO - server.js loaded...
+9.6.2026, 14:50:06 - INFO - Server is running on port: 3030
+9.6.2026, 14:50:08 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a19f1e8bc0483e0e67108a0
+9.6.2026, 14:50:08 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a19f1e8bc0483e0e67108a0
+9.6.2026, 14:50:15 - DEBUG - auth.service - login with username: cc
+9.6.2026, 14:50:15 - INFO - User login:  | {"_id":"6a19f1e8bc0483e0e67108a0","username":"cc","fullname":"cc","isAdmin:":true,"balance":100}
+9.6.2026, 14:50:15 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a19f1e8bc0483e0e67108a0
+9.6.2026, 14:50:16 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a19f1e8bc0483e0e67108a0
+9.6.2026, 14:51:55 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a19f1e8bc0483e0e67108a0
+9.6.2026, 14:51:56 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a19f1e8bc0483e0e67108a0
+9.6.2026, 14:57:30 - DEBUG - auth.service - signup with username: dd, fullname: dd
+9.6.2026, 14:57:30 - DEBUG - auth.route - new account created: {"username":"dd","password":"$2b$10$VQhOEXhy5iSz3snOF8diqunZa3FASqYaI4EAbg7ju9iYV382Q9DiW","fullname":"dd","isAdmin":false,"balance":100,"createdAt":1781006250347,"updatedAt":1781006250347,"_id":"6a27ffaae0973cf533dd51a7"}
+9.6.2026, 14:57:30 - DEBUG - auth.service - login with username: dd
+9.6.2026, 14:57:30 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a27ffaae0973cf533dd51a7
+9.6.2026, 14:57:30 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a27ffaae0973cf533dd51a7
+9.6.2026, 14:58:00 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a27ffaae0973cf533dd51a7
+9.6.2026, 14:58:01 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a27ffaae0973cf533dd51a7
+9.6.2026, 14:59:00 - INFO - server.js loaded...
+9.6.2026, 14:59:00 - INFO - Server is running on port: 3030
+9.6.2026, 14:59:02 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a27ffaae0973cf533dd51a7
+9.6.2026, 14:59:02 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a27ffaae0973cf533dd51a7
+9.6.2026, 14:59:08 - DEBUG - auth.service - login with username: dd
+9.6.2026, 14:59:08 - INFO - User login:  | {"_id":"6a27ffaae0973cf533dd51a7","username":"dd","fullname":"dd","isAdmin":true,"balance":100,"createdAt":1781006250347,"updatedAt":1781006250347}
+9.6.2026, 14:59:08 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a27ffaae0973cf533dd51a7
+9.6.2026, 14:59:09 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a27ffaae0973cf533dd51a7
+9.6.2026, 14:59:14 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a27ffaae0973cf533dd51a7
+9.6.2026, 14:59:15 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a27ffaae0973cf533dd51a7
+9.6.2026, 14:59:26 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a27ffaae0973cf533dd51a7
+9.6.2026, 14:59:27 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a27ffaae0973cf533dd51a7
+9.6.2026, 15:02:42 - DEBUG - auth.service - login with username: cc
+9.6.2026, 15:02:42 - INFO - User login:  | {"_id":"6a19f1e8bc0483e0e67108a0","username":"cc","fullname":"cc","balance":100,"isAdmin":true}
+9.6.2026, 15:02:42 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a19f1e8bc0483e0e67108a0
+9.6.2026, 15:02:46 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a19f1e8bc0483e0e67108a0
+9.6.2026, 15:02:46 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a19f1e8bc0483e0e67108a0
+9.6.2026, 15:02:50 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a19f1e8bc0483e0e67108a0
+9.6.2026, 15:02:50 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a19f1e8bc0483e0e67108a0
+9.6.2026, 15:02:52 - DEBUG - auth.service - login with username: dd
+9.6.2026, 15:02:52 - INFO - User login:  | {"_id":"6a27ffaae0973cf533dd51a7","username":"dd","fullname":"dd","isAdmin":true,"balance":100,"createdAt":1781006250347,"updatedAt":1781006250347}
+9.6.2026, 15:02:52 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a27ffaae0973cf533dd51a7
+9.6.2026, 15:02:53 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a27ffaae0973cf533dd51a7
+9.6.2026, 15:03:28 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a27ffaae0973cf533dd51a7
+9.6.2026, 15:04:17 - INFO - server.js loaded...
+9.6.2026, 15:04:17 - INFO - Server is running on port: 3030
+9.6.2026, 15:04:18 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a27ffaae0973cf533dd51a7
+9.6.2026, 15:04:19 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a27ffaae0973cf533dd51a7
+9.6.2026, 15:07:08 - INFO - server.js loaded...
+9.6.2026, 15:07:08 - INFO - Server is running on port: 3030
+9.6.2026, 15:07:10 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a27ffaae0973cf533dd51a7
+9.6.2026, 15:07:11 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a27ffaae0973cf533dd51a7
+9.6.2026, 15:07:15 - DEBUG - auth.service - login with username: cc
+9.6.2026, 15:07:16 - INFO - User login:  | {"_id":"6a19f1e8bc0483e0e67108a0","username":"cc","fullname":"cc","balance":100,"isAdmin":true}
+9.6.2026, 15:07:16 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a19f1e8bc0483e0e67108a0
+9.6.2026, 15:07:16 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a19f1e8bc0483e0e67108a0
+9.6.2026, 15:07:19 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a19f1e8bc0483e0e67108a0
+9.6.2026, 15:07:20 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a19f1e8bc0483e0e67108a0
+9.6.2026, 15:07:23 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a19f1e8bc0483e0e67108a0
+9.6.2026, 15:07:23 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a19f1e8bc0483e0e67108a0
+9.6.2026, 15:07:25 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a19f1e8bc0483e0e67108a0
+9.6.2026, 15:07:25 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a19f1e8bc0483e0e67108a0
+9.6.2026, 15:07:28 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a19f1e8bc0483e0e67108a0
+9.6.2026, 15:07:28 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a19f1e8bc0483e0e67108a0
+9.6.2026, 15:07:30 - DEBUG - auth.service - login with username: dd
+9.6.2026, 15:07:30 - INFO - User login:  | {"_id":"6a27ffaae0973cf533dd51a7","username":"dd","fullname":"dd","isAdmin":true,"balance":100,"createdAt":1781006250347,"updatedAt":1781006250347}
+9.6.2026, 15:07:31 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a27ffaae0973cf533dd51a7
+9.6.2026, 15:07:31 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a27ffaae0973cf533dd51a7
+9.6.2026, 15:07:38 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a27ffaae0973cf533dd51a7
+9.6.2026, 15:07:39 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a27ffaae0973cf533dd51a7
+9.6.2026, 15:14:10 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a27ffaae0973cf533dd51a7
+9.6.2026, 15:14:10 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a27ffaae0973cf533dd51a7
+9.6.2026, 15:14:37 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a27ffaae0973cf533dd51a7
+9.6.2026, 15:14:37 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a27ffaae0973cf533dd51a7
+9.6.2026, 15:14:39 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a27ffaae0973cf533dd51a7
+9.6.2026, 15:14:39 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a27ffaae0973cf533dd51a7
+9.6.2026, 15:19:56 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a27ffaae0973cf533dd51a7
+9.6.2026, 15:19:57 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a27ffaae0973cf533dd51a7
+9.6.2026, 15:19:58 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a27ffaae0973cf533dd51a7
+9.6.2026, 15:20:05 - DEBUG - auth.service - login with username: dd
+9.6.2026, 15:20:05 - INFO - User login:  | {"_id":"6a27ffaae0973cf533dd51a7","username":"dd","fullname":"dd","isAdmin":true,"balance":100,"createdAt":1781006250347,"updatedAt":1781006250347}
+9.6.2026, 15:20:05 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a27ffaae0973cf533dd51a7
+9.6.2026, 15:20:06 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a27ffaae0973cf533dd51a7
+9.6.2026, 15:20:09 - DEBUG - auth.service - login with username: cc
+9.6.2026, 15:20:10 - INFO - User login:  | {"_id":"6a19f1e8bc0483e0e67108a0","username":"cc","fullname":"cc","balance":100,"isAdmin":true}
+9.6.2026, 15:20:10 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a19f1e8bc0483e0e67108a0
+9.6.2026, 15:20:10 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a19f1e8bc0483e0e67108a0
+9.6.2026, 15:20:14 - DEBUG - auth.service - login with username: badran
+9.6.2026, 15:20:14 - INFO - User login:  | {"_id":"6a27f162b6d1b3fbdc8dce8d","username":"badran","fullname":"badran levi","isAdmin":false,"balance":100,"createdAt":1781002594837,"updatedAt":1781002594837}
+9.6.2026, 15:20:14 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a27f162b6d1b3fbdc8dce8d
+9.6.2026, 15:20:15 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a27f162b6d1b3fbdc8dce8d
+9.6.2026, 16:12:04 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a27f162b6d1b3fbdc8dce8d
+9.6.2026, 16:29:48 - INFO - server.js loaded...
+9.6.2026, 16:29:48 - INFO - Server is running on port: 3030
+9.6.2026, 16:34:04 - INFO - server.js loaded...
+9.6.2026, 16:34:04 - INFO - Server is running on port: 3030
+9.6.2026, 16:34:47 - INFO - server.js loaded...
+9.6.2026, 16:34:47 - INFO - Server is running on port: 3030
+9.6.2026, 16:37:34 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a27f162b6d1b3fbdc8dce8d
+9.6.2026, 16:37:35 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a27f162b6d1b3fbdc8dce8d
+9.6.2026, 16:41:04 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a27f162b6d1b3fbdc8dce8d
+9.6.2026, 20:33:50 - INFO - server.js loaded...
+9.6.2026, 20:33:50 - INFO - Server is running on port: 3030
+9.6.2026, 20:41:11 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a27f162b6d1b3fbdc8dce8d
+9.6.2026, 20:41:12 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a27f162b6d1b3fbdc8dce8d
+9.6.2026, 20:41:27 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a27f162b6d1b3fbdc8dce8d
+9.6.2026, 20:41:27 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a27f162b6d1b3fbdc8dce8d
+9.6.2026, 20:41:30 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a27f162b6d1b3fbdc8dce8d
+9.6.2026, 20:41:31 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a27f162b6d1b3fbdc8dce8d
+9.6.2026, 20:43:05 - INFO - Req was made | /api/toy/6a27f644722e6cf1f6ddf4dd | 6a27f162b6d1b3fbdc8dce8d
+9.6.2026, 20:43:05 - INFO - Req was made | /api/review?toyId=6a27f644722e6cf1f6ddf4dd | 6a27f162b6d1b3fbdc8dce8d
+9.6.2026, 20:43:30 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1
+9.6.2026, 20:43:31 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1
+9.6.2026, 20:43:31 - INFO - Req was made | /api/toy/6a27f644722e6cf1f6ddf4dd
+9.6.2026, 20:43:31 - INFO - Req was made | /api/review?toyId=6a27f644722e6cf1f6ddf4dd
+9.6.2026, 20:43:37 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1
+9.6.2026, 20:43:37 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1
+9.6.2026, 20:43:38 - INFO - Req was made | /api/toy/6a27f644722e6cf1f6ddf4dd
+9.6.2026, 20:43:38 - INFO - Req was made | /api/review?toyId=6a27f644722e6cf1f6ddf4dd
+9.6.2026, 20:43:42 - DEBUG - auth.service - login with username: dd
+9.6.2026, 20:43:42 - INFO - User login:  | {"_id":"6a27ffaae0973cf533dd51a7","username":"dd","fullname":"dd","isAdmin":true,"balance":100,"createdAt":1781006250347,"updatedAt":1781006250347}
+9.6.2026, 20:43:43 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a27ffaae0973cf533dd51a7
+9.6.2026, 20:43:43 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a27ffaae0973cf533dd51a7
+9.6.2026, 20:43:44 - INFO - Req was made | /api/toy/6a27f644722e6cf1f6ddf4dd | 6a27ffaae0973cf533dd51a7
+9.6.2026, 20:43:44 - INFO - Req was made | /api/review?toyId=6a27f644722e6cf1f6ddf4dd | 6a27ffaae0973cf533dd51a7
+9.6.2026, 20:44:16 - INFO - Req was made | /api/toy/6a27f644722e6cf1f6ddf4dd | 6a27ffaae0973cf533dd51a7
+9.6.2026, 20:44:16 - INFO - Req was made | /api/review?toyId=6a27f644722e6cf1f6ddf4dd | 6a27ffaae0973cf533dd51a7
+9.6.2026, 20:44:22 - INFO - Req was made | /api/toy/6a27f644722e6cf1f6ddf4dd | 6a27ffaae0973cf533dd51a7
+9.6.2026, 20:44:22 - INFO - Req was made | /api/review?toyId=6a27f644722e6cf1f6ddf4dd | 6a27ffaae0973cf533dd51a7
+9.6.2026, 20:47:36 - INFO - Req was made | /api/toy/6a27f644722e6cf1f6ddf4dd | 6a27ffaae0973cf533dd51a7
+9.6.2026, 20:47:36 - INFO - Req was made | /api/review?toyId=6a27f644722e6cf1f6ddf4dd | 6a27ffaae0973cf533dd51a7
+9.6.2026, 20:47:43 - INFO - Req was made | /api/toy/6a27f644722e6cf1f6ddf4dd | 6a27ffaae0973cf533dd51a7
+9.6.2026, 20:47:43 - INFO - Req was made | /api/review?toyId=6a27f644722e6cf1f6ddf4dd | 6a27ffaae0973cf533dd51a7
+9.6.2026, 20:47:49 - INFO - Req was made | /api/review | 6a27ffaae0973cf533dd51a7
+9.6.2026, 20:47:49 - INFO - Broadcasting event: review-added | 6a27ffaae0973cf533dd51a7
+9.6.2026, 20:47:49 - INFO - Emit to all | 6a27ffaae0973cf533dd51a7
+9.6.2026, 20:49:23 - INFO - Req was made | /api/toy/6a27f644722e6cf1f6ddf4dd | 6a27ffaae0973cf533dd51a7
+9.6.2026, 20:49:23 - INFO - Req was made | /api/review?toyId=6a27f644722e6cf1f6ddf4dd | 6a27ffaae0973cf533dd51a7
+9.6.2026, 20:49:31 - INFO - Broadcasting event: review-removed | 6a27ffaae0973cf533dd51a7
+9.6.2026, 20:49:31 - INFO - Emit to all | 6a27ffaae0973cf533dd51a7
+9.6.2026, 20:49:32 - INFO - Req was made | /api/toy/6a27f644722e6cf1f6ddf4dd | 6a27ffaae0973cf533dd51a7
+9.6.2026, 20:49:32 - INFO - Req was made | /api/review?toyId=6a27f644722e6cf1f6ddf4dd | 6a27ffaae0973cf533dd51a7
+9.6.2026, 20:49:34 - INFO - Req was made | /api/review | 6a27ffaae0973cf533dd51a7
+9.6.2026, 20:49:34 - INFO - Broadcasting event: review-added | 6a27ffaae0973cf533dd51a7
+9.6.2026, 20:49:34 - INFO - Emit to all | 6a27ffaae0973cf533dd51a7
+9.6.2026, 20:49:35 - INFO - Req was made | /api/review | 6a27ffaae0973cf533dd51a7
+9.6.2026, 20:49:35 - INFO - Broadcasting event: review-added | 6a27ffaae0973cf533dd51a7
+9.6.2026, 20:49:35 - INFO - Emit to all | 6a27ffaae0973cf533dd51a7
+9.6.2026, 20:49:36 - INFO - Req was made | /api/review | 6a27ffaae0973cf533dd51a7
+9.6.2026, 20:49:36 - INFO - Broadcasting event: review-added | 6a27ffaae0973cf533dd51a7
+9.6.2026, 20:49:36 - INFO - Emit to all | 6a27ffaae0973cf533dd51a7
+9.6.2026, 20:49:37 - INFO - Broadcasting event: review-removed | 6a27ffaae0973cf533dd51a7
+9.6.2026, 20:49:37 - INFO - Emit to all | 6a27ffaae0973cf533dd51a7
+9.6.2026, 20:49:44 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a27ffaae0973cf533dd51a7
+9.6.2026, 20:49:44 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a27ffaae0973cf533dd51a7
+9.6.2026, 20:49:46 - INFO - Req was made | /api/toy/6a27f644722e6cf1f6ddf4dd | 6a27ffaae0973cf533dd51a7
+9.6.2026, 20:49:46 - INFO - Req was made | /api/review?toyId=6a27f644722e6cf1f6ddf4dd | 6a27ffaae0973cf533dd51a7
+9.6.2026, 20:49:47 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a27ffaae0973cf533dd51a7
+9.6.2026, 20:49:48 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a27ffaae0973cf533dd51a7
+9.6.2026, 20:49:49 - INFO - Req was made | /api/toy/6a188ade399c4de0f40f22fe | 6a27ffaae0973cf533dd51a7
+9.6.2026, 20:49:49 - INFO - Req was made | /api/review?toyId=6a188ade399c4de0f40f22fe | 6a27ffaae0973cf533dd51a7
+9.6.2026, 20:49:50 - INFO - Req was made | /api/review | 6a27ffaae0973cf533dd51a7
+9.6.2026, 20:49:50 - INFO - Broadcasting event: review-added | 6a27ffaae0973cf533dd51a7
+9.6.2026, 20:49:50 - INFO - Emit to all | 6a27ffaae0973cf533dd51a7
+9.6.2026, 20:49:51 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a27ffaae0973cf533dd51a7
+9.6.2026, 20:49:52 - INFO - Req was made | /api/toy?name=&inStock=all&labels=&sortBy=name&sortDir=1 | 6a27ffaae0973cf533dd51a7
